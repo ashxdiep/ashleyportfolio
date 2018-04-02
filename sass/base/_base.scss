@@ -1,0 +1,14 @@
+/* Select each element on the page, and set these styles  */
+*{
+  margin: 0;
+  padding: 0;
+  /* borders and padding not added to total width and height of a box  */
+  box-sizing: inherit;
+}
+html{
+  //This defines what 1rem is
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+}
