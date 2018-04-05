@@ -32,8 +32,6 @@
 
 @mixin respond($breakpoint){
 
-  font-size: 62.5%;
-
   @if $breakpoint == phone{
     @media(max-width: 37.5em){ @content };
   }
