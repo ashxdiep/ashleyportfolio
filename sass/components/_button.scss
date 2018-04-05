@@ -43,6 +43,15 @@
     }
   }
 
+  &-green{
+    background-color: $color-primary-dark;
+    color: $color-white;
+
+    &::after{
+      background-color: #fff;
+    }
+  }
+
   /* making another element exactly behind the button  */
   &::after{
     content: "";
