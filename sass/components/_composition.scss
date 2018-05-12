@@ -20,7 +20,7 @@
 
     &--p1{
       left: 0;
-      top: -2rem;
+      top: -4rem;
 
       @include respond(tab-port){
         top: 0;
@@ -30,7 +30,7 @@
 
     &--p2{
       right: 0;
-      top: 2rem;
+      top: 0rem;
 
       @include respond(tab-port){
         top: -1rem;
@@ -42,7 +42,7 @@
 
     &--p3{
       left: 20%;
-      top: 10rem;
+      top: 8rem;
 
       @include respond(tab-port){
         left: 0;

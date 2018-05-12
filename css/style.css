@@ -179,7 +179,7 @@ body {
   background-image: linear-gradient(to right bottom, #55c57a, #28b485); }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/block.jpg);
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 5rem rgba(0, 0, 0, 0.2); }
@@ -273,7 +273,7 @@ body {
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
+    width: 45%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
@@ -288,14 +288,14 @@ body {
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     .composition__photo--p1 {
       left: 0;
-      top: -2rem; }
+      top: -4rem; }
       @media (max-width: 56.25em) {
         .composition__photo--p1 {
           top: 0;
           transform: scale(1.2); } }
     .composition__photo--p2 {
       right: 0;
-      top: 2rem; }
+      top: 0rem; }
       @media (max-width: 56.25em) {
         .composition__photo--p2 {
           top: -1rem;
@@ -303,7 +303,7 @@ body {
           z-index: 50; } }
     .composition__photo--p3 {
       left: 20%;
-      top: 10rem; }
+      top: 8rem; }
       @media (max-width: 56.25em) {
         .composition__photo--p3 {
           left: 0;
@@ -466,7 +466,7 @@ body {
 .form__label {
   font-size: 1.2rem;
   font-weight: 700;
-  margin-left: 2rem;
+  margin-left: 10rem;
   margin-top: .7rem;
   display: block;
   transition: all .3s; }
@@ -528,7 +528,9 @@ body {
     padding: 3rem 5rem; }
   .popup__img {
     display: block;
-    width: 100%; }
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
@@ -546,7 +548,7 @@ body {
 .header {
   /* height of the box will always be 95 percent of the height  */
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url(../img/fam.jpg);
   background-size: cover;
   /* Will always stay at the top  */
   background-position: top;
